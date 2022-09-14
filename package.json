@@ -7,9 +7,8 @@
   "description": "backend API for workout-tracker application",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "npm test",
+    "test": "jest --coverage",
     "start": "node index"
   },
   "repository": {
@@ -21,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/wits52/workout-tracker-api/issues"
   },
-  "homepage": "https://github.com/wits52/workout-tracker-api#readme"
+  "homepage": "https://github.com/wits52/workout-tracker-api#readme",
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "supertest": "^6.2.4"
+  }
 }
